@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+h1,h2, h3, h4{
+    font-family: 'GFS Neohellenic', sans-serif; 
+}
+
+p{
+    float: none;
+    text-align: justify;
+    vertical-align: auto;
+}
+
+.container{
+    background-color: bisque;
+}
+
+body{
+    background-color: wheat;
+    margin: 1em;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+}
+
+.gallery{
+    padding: 25px;
+    columns: 3 50px;
+    column-gap: 0.5em;
+   
+}
+
+h1,h2{
+    color:black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    color:black;
+    background-color: wheat;   
+    height:max-content;
+    width: 10000px;
+    text-align: center;
+}
+
+nav a {  
+    color: rgb(0, 0, 0);
+    padding: 0 0px;
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+}
+
+.boton{
+    background-color: wheat;
+    padding: 10px;
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-decoration:none;
+}
+
+a {
+    text-decoration:none;
+}
